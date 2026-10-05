@@ -1,0 +1,13 @@
+{
+  "name": "qrcode-pub-mcp",
+  "version": "1.0.0",
+  "description": "MCP stdio bridge for QRCode.Pub tools: free QR code images, paid web page → Markdown, page metadata and file hosting via x402 (USDC, no API key).",
+  "type": "module",
+  "bin": { "qrcode-pub-mcp": "bin/qrcode-pub-mcp.mjs" },
+  "files": ["bin", "README.md", "llms-install.md", "LICENSE"],
+  "engines": { "node": ">=18" },
+  "keywords": ["mcp", "model-context-protocol", "qr-code", "x402", "markdown", "metadata", "file-hosting"],
+  "homepage": "https://qrcode.pub/qr-code-api?ref=github-mcp#mcp",
+  "repository": { "type": "git", "url": "git+https://github.com/AgentiLoop/qrcode-pub-mcp.git" },
+  "license": "MIT"
+}
