@@ -30,7 +30,7 @@ If the client supports remote MCP servers, use `{"type": "http", "url": "https:/
 ## Verify
 
 ```bash
-npx -y @modelcontextprotocol/inspector --cli npx -y github:AgentiLoop/qrcode-pub-mcp --method tools/list
+echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | npx -y github:AgentiLoop/qrcode-pub-mcp
 ```
 
 Expected: four tools — `qr_code`, `page_to_markdown`, `page_metadata`, `host_file`.

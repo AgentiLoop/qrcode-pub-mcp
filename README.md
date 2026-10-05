@@ -51,7 +51,7 @@ claude mcp add --transport http qrcode-pub https://qrcode.pub/mcp
 ### Verify
 
 ```bash
-npx -y @modelcontextprotocol/inspector --cli npx -y github:AgentiLoop/qrcode-pub-mcp --method tools/list
+echo '{"jsonrpc":"2.0","id":1,"method":"tools/list"}' | npx -y github:AgentiLoop/qrcode-pub-mcp
 ```
 
 ## Paid tools and x402
