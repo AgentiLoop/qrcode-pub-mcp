@@ -1,6 +1,6 @@
 # qrcode-pub-mcp
 
-🤖 **Built by the makers of [Agent!](https://github.com/AgentiLoop/Agent)**, an autonomous macOS agent.
+🤖 **Built by the makers of [Agent!](https://github.com/AgentiLoop/Agent)**, an autonomous macOS agent. 🌐 [agentiloop.ai](https://agentiloop.ai)
 
 
 MCP server for [QRCode.Pub](https://qrcode.pub/?ref=github-mcp) tools, runnable with one command and no API key:
